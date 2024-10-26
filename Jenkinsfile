@@ -3,7 +3,10 @@ pipeline {
 
     stages{
         stage('check'){
-            echo 'webhook test'
+            steps{
+                echo 'check'
+            }
+            
         }
     }
 
